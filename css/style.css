@@ -19,7 +19,7 @@ body, html {
 }
 
 .pimg1 {
-  background-image: url('../img/study.jpeg');
+  background-image: url('../img/head.jpeg');
   min-height: 100%;
 }
 
@@ -39,7 +39,7 @@ body, html {
 }
 
 .pimg5 {
-  background-image: url('../img/study.jpeg');
+  background-image: url('../img/head.jpeg');
   min-height: 100%;
 }
 
@@ -61,10 +61,41 @@ body, html {
 .ptext .border {
   background-color: #111;
   color: #fff;
-  padding: 15px;
+  padding: 15px 0 15px 5px;
+}
+
+#photo-profile {
+  max-width: 200px;
+  border-radius: 400px;
+  display: inline-block;
+}
+
+#photo-block {
+  max-width: 700px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  margin-left: 50px;
 }
 
 @media(max-width:568px) {
+  h2 {
+    text-align: center;
+  }
+  #photo-profile {
+    max-width: 200px;
+    border-radius: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  #photo-block {
+    max-width: 700px;
+    display: block;
+    text-align: justify;
+    margin-left: 0;
+  }
   .section {
     font-size: 20px;
     padding: 20px 3px;
@@ -74,4 +105,5 @@ body, html {
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5 {
     background-attachment: scroll;
   } 
+
 }
